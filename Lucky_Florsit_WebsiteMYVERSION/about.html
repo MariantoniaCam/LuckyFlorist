@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lucky Florist About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="./assets/styles.css" rel="stylesheet"/>
+     <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+     <script>
+        function myFunction() {
+        var x = document.getElementById("responsiveNav");
+        if (x.className === "mainNav") {
+            x.className += " responsive";
+            console.log('turn menu on')
+        } else {
+            x.className = "mainNav";
+            console.log('turn menu off')
+        }
+        }
+    </script>
+</head>
+<!-- <link href=insert font here>-->
+
+<body>
+   
+    
+<!--    Navigation Bar-->
+    
+    <div class="header">
+        <div class="logo"><a href="index.html"><img src="assets/images/logolarge.png"></a></div>
+        <nav class="mainNav" id="responsiveNav">
+        <ul>
+           <li><a href="javascript:void(0);" style="font-size:8.5vw;" class="icon" onclick="myFunction()">&#9776;</a>
+            </li>
+            <li><a href="1_vase.html">Vase Arrangements</a>
+            </li>
+            <li><a href="2_centerpieces.html">Centerpieces</a>
+            </li>
+            <li><a href="3_sympathy.html">Sympathy</a>
+            </li>
+            <li><a class="active" href="about.html">About</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+  
+  
+  <br><br>
+  
+<!--Content-->
+   
+   <div id="viewport">
+    
+    <div class="about_container">
+    
+    <h2>Location</h2>
+    
+    <div class="location_container">
+    <div class="location_item">
+        <p class="address">
+        We're located in the heart of Oakland, at the intersection of West MacArthur Boulevard and Telegraph Avenue. Give us a call or stop on by!</p>
+        <p class="address2"><b>Address:</b> 501 W MacArthur Blvd, Oakland, CA 94609 <br> <b>Phone:</b> (510) 653-3737<br>
+        <b>Hours:</b> 8.30 am- 5.30pm Monday- Friday</p>
+    </div>
+        
+    <div class="location_item"> 
+        <iframe width="450" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=lucky%20florist&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                
+    </div>
+    </div>
+
+    <br><br>
+    
+    <div class="story_container">
+    
+    <h2>Our Story</h2>
+    <p class="about_text"> 
+    <img class="about_image" src="assets/images/about01.jpg" width="500px">
+     Lucky Florist first opened its doors back in 1935. We are third generation flower shop, residing at the same address since day one. Our grandfather, Max Davis, his wife Eleanor, and her great uncle, Jack Capeluto, had a dream of starting their own business. We were still in the midst of the great depression and the name, Lucky Florist, was thought up by our grandmother. When I was young, she told us that she thought of the name when she realized how lucky we were to have a business at all during terrible economic times. They were now living the American dream. We couldn’t be more proud of them for all their sacrifices and hard work over the years. <br><br><img class="about_image2" src="assets/images/about02.jpg" width="350px">In 1961, our father, Robert Davis, was just coming out of the military when he joined the family business. He, along with our grandfather and other fine employees, like my uncle Charlie, kept the business running at a high level of customer satisfaction which continues to this day. We have loyal customers dating back to the late 40s, remembering times when we did their first high school corsage, or even their wedding. We love hearing the old stories. It gives us a great sense of community and pride.<br><br>His grandson Jay keeps this old, family-owned traditional alive with beautiful flower arrangements for all occasions. Your satisfaction is our utmost priority.
+    </p>
+      
+      
+  <br><br>
+       
+    </div>
+    </div>
+    
+
+  <br><br>  <br><br>  <br><br>  <br><br>
+  <br><br>  <br><br>  <br><br>  <br><br>
+
+<!--Footer-->
+   
+    <div class="footer">
+    Address: 501 W MacArthur Blvd, Oakland, CA 94609 <br> Phone: (510) 653-3737<br>
+    Hours: 8.30 am- 5.30pm Monday- Friday
+    </div>
+    
+
+</body>
+</html>
